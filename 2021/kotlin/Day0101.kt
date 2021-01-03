@@ -1,3 +1,7 @@
+/**
+ * Author : Zone_Infinity#9999
+ */
+
 fun nthEven(a: Int) = a * 2 - 2
 fun validateEmail(email: String) = email.matches("^.+@.+\\..+$".toRegex())
 
