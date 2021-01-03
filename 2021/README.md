@@ -14,8 +14,6 @@
 │   └── Day0101.hs
 ├── java
 │   └── Day0101.java
-├── js
-│   └── day0101.js
 ├── kotlin
 │   └── Day0101.kt
 ├── python
@@ -23,5 +21,5 @@
 └── tasks
     └── day0101.md
 
-10 directories, 12 files
+9 directories, 11 files
 ```
