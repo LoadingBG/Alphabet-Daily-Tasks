@@ -1,3 +1,7 @@
+"""
+Author: Loading BG#7962
+"""
+
 defmodule Day0101 do
   def nth_even(n), do: 2 * n - 2
   

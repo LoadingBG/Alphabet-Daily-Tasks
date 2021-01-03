@@ -1,3 +1,6 @@
+/**
+ * Author: Loading BG#7962
+ */
 'use strict';
 
 const nthEven = n => n * 2 - 2;
