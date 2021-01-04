@@ -1,3 +1,6 @@
+/**
+ * Author: Loading BG#7962
+ */
 class Day0101 {
     public static void main(String[] args) {
         System.out.println("nth_even #1: " + nthEven(1));

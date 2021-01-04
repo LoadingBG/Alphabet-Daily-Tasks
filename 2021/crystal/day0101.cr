@@ -1,3 +1,7 @@
+#
+# Author: Loading BG#7962
+#
+
 def nth_even(n)
     2 * n - 2
 end

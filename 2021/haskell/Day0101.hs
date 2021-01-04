@@ -1,3 +1,7 @@
+{-
+  Author: Loading BG#7962
+-}
+
 module Main where
 
 import Data.Char
