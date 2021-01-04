@@ -1,6 +1,5 @@
 (comment
-  "Author: Loading BG#7962"
-  )
+  "Author: Loading BG#7962")
 
 (defn nth-even [n]
   (- (* 2 n) 2))
