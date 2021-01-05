@@ -6,7 +6,7 @@ import java.awt.Polygon;
 import java.util.ArrayList;
 import java.util.List;
 
-class Day0401 {
+class Day0104 {
     public static void main(String[] args) {
         System.out.println("check #1: " + check(new int[] {1, 2, 3}));
         System.out.println("check #2: " + check(new int[] {3, 2, 1}));

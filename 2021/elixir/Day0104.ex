@@ -2,7 +2,7 @@
 # Author: Loading BG#7962
 #
 
-defmodule Day0401 do
+defmodule Day0104 do
   defp split([_]),  do: []
   defp split([x, y]), do: [[x, y]]
   defp split([x, y | rest]), do: [[x, y]] ++ split([y] ++ rest)
@@ -25,13 +25,13 @@ defmodule Day0401 do
   def bishop(start, finish, _), do: color(start) == color(finish)
 end
 
-IO.inspect Day0401.check([1, 2, 3]), label: "check #1"
-IO.inspect Day0401.check([3, 2, 1]), label: "check #2"
-IO.inspect Day0401.check([1, 2, 1]), label: "check #3"
+IO.inspect Day0104.check([1, 2, 3]), label: "check #1"
+IO.inspect Day0104.check([3, 2, 1]), label: "check #2"
+IO.inspect Day0104.check([1, 2, 1]), label: "check #3"
 IO.puts "---------"
-IO.inspect Day0401.within_tri?([[1, 4], [5, 6], [6, 1]], [4, 5]), label: "withinTriangle #1"
-IO.inspect Day0401.within_tri?([[1, 4], [5, 6], [6, 1]], [3, 2]), label: "withinTriangle #2"
+IO.inspect Day0104.within_tri?([[1, 4], [5, 6], [6, 1]], [4, 5]), label: "withinTriangle #1"
+IO.inspect Day0104.within_tri?([[1, 4], [5, 6], [6, 1]], [3, 2]), label: "withinTriangle #2"
 IO.puts "---------"
-IO.inspect Day0401.bishop("a1", "b4", 2), label: "bishop #1"
-IO.inspect Day0401.bishop("a1", "b5", 5), label: "bishop #2"
-IO.inspect Day0401.bishop("f1", "f1", 0), label: "bishop #3"
+IO.inspect Day0104.bishop("a1", "b4", 2), label: "bishop #1"
+IO.inspect Day0104.bishop("a1", "b5", 5), label: "bishop #2"
+IO.inspect Day0104.bishop("f1", "f1", 0), label: "bishop #3"
