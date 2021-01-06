@@ -15,7 +15,7 @@ Example:
 ## Naming conventions
 The name of a file should be in the format `(day|Day)date.ext` where:
     * `(day|Day)` is either `day` or `Day` depending on the language's naming conventions;
-    * `date` is the date in `ddmm` format;
+    * `date` is the date in `mmdd` format;
     * `ext` is the extension for the language.
 Example: `Day0101.java`, `day0101.clj`
 
