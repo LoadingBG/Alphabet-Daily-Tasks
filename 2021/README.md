@@ -8,6 +8,7 @@
 │   ├── day0101Recursive.cpp
 │   ├── day0104.cpp
 │   ├── day0104Recursive.cpp
+│   ├── day0106.cpp
 │   └── day0106Recursive.cpp
 ├── crystal
 │   ├── day0101.cr
@@ -26,6 +27,7 @@
 ├── python
 │   ├── day0101.py
 │   ├── day0104.py
+│   ├── day0106Golfed.py
 │   └── day0106.py
 ├── README.md
 └── tasks
@@ -33,5 +35,5 @@
     ├── day0104.md
     └── day0106.md
 
-9 directories, 23 files
+9 directories, 25 files
 ```
