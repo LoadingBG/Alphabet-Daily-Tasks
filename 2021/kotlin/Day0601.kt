@@ -30,4 +30,4 @@ fun space(s: String): String {
     return r
 }
 
-fun sort(s: String) = s.split(" ").sortedBy { it[0].toLowerCase() }.joinToString(" ")
+fun sort(s: String) = s.split(" ").sortedBy { it.map { c -> c.toInt() }.sum() / it.length }.joinToString(" ")
