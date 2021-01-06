@@ -9,7 +9,9 @@
 │   ├── day0101.cpp
 │   ├── day0101Recursive.cpp
 │   ├── day0104.cpp
-│   └── day0104Recursive.cpp
+│   ├── day0104Recursive.cpp
+│   ├── day0106.cpp
+│   └── day0106Recursive.cpp
 ├── crystal
 │   ├── day0101.cr
 │   ├── day0104.cr
@@ -27,13 +29,18 @@
 │   ├── Day0104.java
 │   └── Day0106.java
 ├── kotlin
-│   └── Day0101.kt
+│   ├── Day0101.kt
+│   ├── Day0401.kt
+│   └── Day0601.kt
 ├── python
 │   ├── day0101.py
-│   └── day0104.py
+│   ├── day0104.py
+│   ├── day0106.py
+│   └── day0106Golfed.py
 └── tasks
     ├── day0101.md
-    └── day0104.md
+    ├── day0104.md
+    └── day0106.md
 
-9 directories, 25 files
+9 directories, 32 files
 ```
